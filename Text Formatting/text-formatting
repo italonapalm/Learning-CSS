@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Formatting</title>
+  <meta charset="utf-8">
+  <style type="text/css">
+    p {
+      font-size: 30px;
+      font-family: "Georgia";
+    }
+    .text {
+      font-size: 1em;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .style {
+      /*font-style: italic;*/
+      font-style: oblique;
+    }
+    .pattern-text {
+      font: bold 40px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+    .formatting {
+      /*text-decoration: underline;
+      text-decoration: overline;*/
+      text-decoration: line-through;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <p class="text">Lorem ipsum <span class="formatting">dolor</span> sit amet, consectetur adipisicing elit.</p>
+  <p class="bold">Conteúdo 1</p>
+  <p>Conteúdo 2</p>
+  <p class="style">Conteúdo 3</p>
+  <p class="pattern-text">Conteúdo 4</p>
+
+
+</body>
+</html>
